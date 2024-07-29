@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "EventUrl Finder and Analyzer",
+  "version": "1.0",
+  "description": "Finds event links and analyzes their content",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Analyze Event Links"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
