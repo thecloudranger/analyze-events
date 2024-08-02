@@ -28,5 +28,7 @@ graph TD
 2. Log in to meetup.com and navigate to the past events page.
 3. Click the extension icon to initiate the analysis process.
 4. Keep the browser window open until the extension completes execution and generates the CSV file.
+5. To see the logs while the extension is running, open the service workers log from the "Manage Extensions" pane.
+   ![alt text](<CleanShot 2024-08-02 at 14.52.57@2x.png>)
 
 **Warning:** You must be logged in to meetup and on the past events page for the extension to work correctly.
